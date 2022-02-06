@@ -29,12 +29,14 @@ export class PostService {
     let n2 = new NodeT(2);
     let n3 = new NodeT(3);
     let n4 = new NodeT(13);
-
+    let n5 = new NodeT(2);
     
     
     n1.next = n4;
     n2.next = n3;
     n4.next = n3;
+
+
 
     printLinkedList(n1)
     // printLinkedList(n2)
